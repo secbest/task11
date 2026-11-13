@@ -4,7 +4,6 @@ function App() {
   return (
     <div>
       <h1>Student Directory</h1>
-      {/* TODO: replace with YOUR real information */}
       <StudentProfileCard
         name="Jasper Teo Kheng Cher"
         studentId="202699473"
