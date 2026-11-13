@@ -1,0 +1,18 @@
+body { margin: 0; padding: 24px; font-family: system-ui, sans-serif; background: #e8eef5; color: #1f2328; }
+h1 { text-align: center; }
+
+.profile-card {
+  max-width: 340px;
+  margin: 16px auto;
+  padding: 16px 20px;
+  background: #ffffff;
+  border: 1px solid #b6c2d0;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  transition: transform .15s, box-shadow .15s;
+}
+.profile-card:hover { transform: translateY(-3px); box-shadow: 0 8px 18px rgba(0,0,0,.15); }
+.card-header { border-bottom: 1px solid #e1e6ec; margin-bottom: 10px; padding-bottom: 8px; }
+.student-name { margin: 0 0 4px; font-size: 20px; }
+.student-id { font-family: monospace; color: #0969da; }
+.card-body p { margin: 4px 0; }
